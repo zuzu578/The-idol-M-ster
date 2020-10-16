@@ -1,0 +1,374 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+ background:url("https://cinderella.idolmaster.jp/sl-stage/images/common/pattern_bg.png" );
+}
+
+
+.main1-box{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top:0;
+  width:100%;
+}
+.main1-background{
+  position: relative;
+}
+.main1-background img{
+  width:100%;
+}
+
+.sns{
+  display: flex;
+}
+.sns-icons1 img{
+  width:100%;
+}
+.sns-icons2 img{
+width:100%;
+}
+
+.images img{
+  width:70%;
+}
+.sns-icons2{
+  padding-right:10px;
+  padding-left:10px;
+
+}
+
+.mobile{
+ display: flex;
+  justify-content: flex-end;
+}
+
+.div-wrap{
+text-align: right;
+padding-top:200px;
+
+width:100%;
+
+  
+}
+
+
+.image-1 img{
+  width:20%;
+}
+.image-m img{
+  width:96%;
+}
+.main2{
+  background:url("https://cinderella.idolmaster.jp/sl-stage/images/top/pattern_bg_4.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width:100%;
+ 
+}
+
+.banner-images{
+  display: flex;
+  justify-content:space-evenly;
+  padding-top:20px;
+  padding-bottom:30px;
+
+  
+  width:100%;
+}
+
+.banner img{
+  width:100%;
+}
+
+.title-image img{
+  width:100%;
+}
+
+.title-image{
+padding-top:40px;
+padding-left:40px;
+padding-right:40px;
+
+}
+
+.nail-images img{
+  width:100%;
+}
+
+.nail-images{
+  display: flex;
+  justify-content: center;
+  padding:10px;
+  width:100%;
+
+}
+
+.nail1{
+  width:100%;
+ margin-left:40px;
+  margin-right:40px;
+  border:3px solid RGB(175, 175, 175);
+  border-radius: 5px;
+}
+.nail2{
+  width:100%;
+  margin-right:40px;
+  margin-left:40px;
+  border:3px solid RGB(175, 175, 175);
+  border-radius: 5px;
+}
+
+.nail1 img{
+  width:100%;
+  border:3px solid white;
+  border-radius: 5px;
+ 
+}
+
+.nail2 img{
+  width:100%;
+  border:3px solid white;
+  border-radius: 5px;
+}
+.section1{
+  text-align: center;
+}
+.button{
+  text-align: right;
+  margin-right:30px;
+
+}
+.button img{
+  width:10%;
+}
+
+.title2{
+  text-align: center;
+  padding-top:40px;
+padding-left:40px;
+padding-right:40px;
+}
+.title2 img{
+  width:100%;
+
+}
+
+.main4-images{
+  display: flex;
+  justify-content: center;
+}
+.main4-img2{
+  
+   width:100%;
+  margin-right:40px;
+  margin-left:40px;
+  border:3px solid RGB(175, 175, 175);
+  border-radius: 5px;
+  margin-top:20px;
+
+}
+.main4-img1{
+  
+  margin-top:20px;
+   width:100%;
+  margin-right:40px;
+  margin-left:40px;
+  border:3px solid RGB(175, 175, 175);
+  border-radius: 5px;
+}
+.main4-img2 img{
+  width:100%;
+  border:3px solid white;
+  border-radius: 5px;
+
+
+}
+.main4-img1 img{
+  width:100%;
+  border:3px solid white;
+    border-radius: 5px;
+
+}
+
+.main5{
+  background:url("https://cinderella.idolmaster.jp/sl-stage/images/top/pattern_bg_3.png");
+  text-align: center;
+}
+.main5-title{
+  text-align: center;
+}
+
+.text-box{
+
+margin-top: 15px;
+    font-size: 20px;
+   
+    font-family: 'Meiryo', 'ヒラギノ角ゴ Pro W3', 'ＭＳ Ｐゴシック', 'Osaka', sans-serif;
+    font-weight: bold;
+    color: #555555;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.line-1{
+  display: flex;
+  justify-content: center;
+}
+
+.line-2{
+  display: flex;
+  justify-content: center;
+}
+.main5-images-box{
+  border-left: 3px solid RGB(165, 191, 252);
+  border-top: 3px solid RGB(204, 190, 255);
+  border-right:3px solid  #ffc4e2;
+  border-bottom:3px solid RGB(255, 205, 185);
+  width:70%;
+  margin:0 auto;
+  
+
+  border-radius: 6px;
+}
+
+.main5-title{
+  padding-top:100px;
+}
+.main5-title img{
+  width:70%;
+}
+.img-1{
+  border:3px solid white;
+  border-radius: 6px;
+
+
+}
+
+.img-1 img{
+  width:100%;
+}
+
+.main6-images{
+  text-align: center;
+}
+.main6-images img{
+  width:80%;
+}
+
+.main6-images img{
+
+}
+.title-p{
+ font-size: 12px;
+    
+    font-family: 'Meiryo', 'ヒラギノ角ゴ Pro W3', 'ＭＳ Ｐゴシック', 'Osaka', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 105, 179);
+    line-height: 1.25em;
+}
+
+.infor{
+
+    font-size: 16px;
+    
+    font-family: 'Meiryo', 'ヒラギノ角ゴ Pro W3', 'ＭＳ Ｐゴシック', 'Osaka', sans-serif;
+    color: rgb(86, 86, 86);
+    line-height: 1.25em;
+}
+
+.container{
+  padding-top:40px;
+
+  display: flex;
+  justify-content: space-around;
+}
+.container-items1{
+  display: flex;
+}
+.icons img{
+  width:100%;
+}
+
+.under-images img{
+  width:100%;
+}
+
+.text-box3{
+  padding-left:20px;
+
+}
+.main5-images-box{
+  margin-top:30px;
+  margin-bottom:30px;
+
+
+}
+.main5{
+  margin-top:20px;
+
+}
+@media screen and (max-width:800px) {
+
+  .banner-images{
+    flex-direction: column;
+    margin:0 auto;
+   align-items: center;
+   
+    
+  }
+  .banner img{
+    width:100%;
+  
+  }
+  .nail-images{
+    flex-direction: column;
+  }
+
+  .title-image img{
+    width:100%;
+  }
+  .button{
+    display: none;
+  }
+
+  .nail1 img{
+  width:100%;
+  border:none;
+  }
+  .nail2 img{
+  width:100%;
+ 
+  }
+  .nail1{
+     border:none;
+  }
+  .nail2{
+     border:none;
+  }
+  .main4-images{
+    flex-direction: column;
+  }
+  .title-image img{
+    margin:0 auto;
+     width:100%;
+    
+  }
+
+  .container{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin:0 auto;
+    align-items: center;
+  }
+
+  .under-images img {
+    width:60%;
+    
+  }
+}
