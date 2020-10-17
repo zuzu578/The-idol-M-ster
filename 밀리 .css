@@ -1,0 +1,113 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+background:url("https://millionlive.idolmaster.jp/theaterdays/images/top/bgr4.jpg");
+background-size:100%;
+}
+.main1{
+ background:url("https://millionlive.idolmaster.jp/theaterdays/images/top/bgt5.jpg");
+ background-size: 100%;
+
+ background-repeat: no-repeat;
+}
+.header-items{
+  display: flex;
+}
+.sns-items img{
+  width:100%;
+  border:3px solid white;
+  border-radius: 5px;
+}
+.sns-items{
+  padding:5px;
+
+}
+.title-box{
+  display: flex;
+  width:100%;
+  justify-content: center;
+  
+
+}
+.container-box{
+  background:url("https://millionlive.idolmaster.jp/theaterdays/images/top/bgdl.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.title-images{
+  text-align: center;
+}
+.title-items img{
+  width:100%;
+}
+.title-images img{
+  width:50%;
+}
+.mobile img{
+  width:100%;
+}
+.mobile-items{
+  display: flex;
+  justify-content: center;
+}
+
+.banner{
+  text-align: center;
+ padding-top:5px;
+}
+.banner img{
+  width:80%;
+  
+}
+
+.image-nav{
+  display: flex;
+  justify-content: center;
+}
+.nav-items img{
+  width:100%;
+}
+
+.g-title img{
+  width:50%;
+}
+.g-items img{
+  width:100%;
+}
+.g-title{
+z-index: 1000;
+ position: absolute;
+}
+.g-items{
+  position: relative;
+}
+
+.media-box{
+    align-items: center;
+  display: flex;
+}
+
+.twitter img{
+  width:100%;
+}
+.media-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width:800px){
+  .container-box{
+    display: none;
+  }
+  .media-box{
+    flex-direction: column-reverse;
+    
+  }
+  .twitter-api{
+    padding-bottom:20px;
+  }
+  
+}
